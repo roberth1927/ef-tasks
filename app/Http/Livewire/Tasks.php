@@ -89,6 +89,7 @@ class Tasks extends Component
     {
         if ($id) {
             Task::where('id', $id)->delete();
+            session()->flash('message', 'Tarea eliminada exitosamente.');
         }
     }
 }

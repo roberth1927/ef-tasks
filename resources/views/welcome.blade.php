@@ -10,7 +10,7 @@
               <h5>
             @guest
 
-				{{ __('Bienvenido') }} {{ config('app.name', 'Laddravel') }} !!! </br>
+				{{ __('Bienvenido') }}  !!! </br>
 				Comuníquese con el administrador para obtener sus credenciales de inicio de sesión o haga clic en "Iniciar sesión" para ir al listado de tareas
 
 			@else
